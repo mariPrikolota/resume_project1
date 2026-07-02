@@ -1,4 +1,4 @@
-package com.example.my_project_kotlin
+package com.resume.project
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

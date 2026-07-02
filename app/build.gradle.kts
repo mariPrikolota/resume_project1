@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.my_project_kotlin"
+    namespace = "com.resume.project"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.my_project_kotlin"
+        applicationId = "com.resume.project"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

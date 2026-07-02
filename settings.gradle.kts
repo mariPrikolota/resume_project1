@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "my_project_kotlin"
+rootProject.name = "resume_project1"
 include(":app")
  
