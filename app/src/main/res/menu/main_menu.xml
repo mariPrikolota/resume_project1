@@ -6,10 +6,14 @@
         android:title="@string/t_profile" />
 
     <item
+        android:id="@+id/navigation_catalog"
+        android:title="@string/t_catalog"/>
+
+    <item
         android:id="@+id/navigation_home"
         android:title="@string/t_home" />
 
     <item
-        android:id="@+id/navigation_catalog"
-        android:title="@string/t_catalog"/>
+        android:id="@+id/navigation_favorit"
+        android:title="@string/t_favorite"/>
 </menu>

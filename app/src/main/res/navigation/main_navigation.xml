@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.resume.project.navigation.NavigationProfile"
+        android:label="fragment_profil"
+        tools:layout="@layout/navigation_profile">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_catalog"
+        android:name="com.resume.project.navigation.NavigationCatalog"
+        android:label="fragment_catalog"
+        tools:layout="@layout/navigation_catalog"/>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.resume.project.navigation.NavigationHome"
+        android:label="fragment_home"
+        tools:layout="@layout/navigation_home"/>
+
+    <fragment
+        android:id="@+id/navigation_favorit"
+        android:name="com.resume.project.navigation.NavigationFavorite"
+        android:label="fragment_favorit"
+        tools:layout="@layout/navigation_favorite"/>
+
+</navigation>
