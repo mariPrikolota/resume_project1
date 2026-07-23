@@ -3,17 +3,21 @@
 
     <item
         android:id="@+id/navigation_profil"
-        android:title="@string/t_profile" />
+        android:title="@string/t_profile"
+        android:icon="@drawable/outline_4g"/>
 
     <item
         android:id="@+id/navigation_catalog"
-        android:title="@string/t_catalog"/>
+        android:title="@string/t_catalog"
+        android:icon="@drawable/outline_4g"/>
 
     <item
         android:id="@+id/navigation_home"
-        android:title="@string/t_home" />
+        android:title="@string/t_home"
+        android:icon="@drawable/outline_4g"/>
 
     <item
         android:id="@+id/navigation_favorit"
-        android:title="@string/t_favorite"/>
+        android:title="@string/t_favorite"
+        android:icon="@drawable/outline_4g"/>
 </menu>

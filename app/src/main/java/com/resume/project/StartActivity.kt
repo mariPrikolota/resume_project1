@@ -1,6 +1,7 @@
 package com.resume.project
 
 import android.os.Bundle
+import android.util.Log
 import android.util.SparseArray
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
@@ -20,6 +21,7 @@ class StartActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityStartBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         onControllerNavigation()
     }

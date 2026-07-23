@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/catalogFragment"
         android:name="com.resume.project.ui.catalog.CatalogFragment"
-        android:label="favorite_fragment"
+        android:label="catalog_fragment"
         tools:layout="@layout/f_catalog">
 
     </fragment>

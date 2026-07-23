@@ -6,6 +6,12 @@
     app:startDestination="@id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.resume.project.navigation.NavigationHome"
+        android:label="fragment_home"
+        tools:layout="@layout/navigation_home"/>
+
+    <fragment
         android:id="@+id/navigation_profil"
         android:name="com.resume.project.navigation.NavigationProfile"
         android:label="fragment_profil"
@@ -18,12 +24,6 @@
         android:name="com.resume.project.navigation.NavigationCatalog"
         android:label="fragment_catalog"
         tools:layout="@layout/navigation_catalog"/>
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.resume.project.navigation.NavigationHome"
-        android:label="fragment_home"
-        tools:layout="@layout/navigation_home"/>
 
     <fragment
         android:id="@+id/navigation_favorit"
