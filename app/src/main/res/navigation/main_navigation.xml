@@ -26,6 +26,12 @@
         tools:layout="@layout/navigation_catalog"/>
 
     <fragment
+        android:id="@+id/navigation_basket"
+        android:name="com.resume.project.navigation.NavigationBasket"
+        android:label="fragment_basket"
+        tools:layout="@layout/navigation_basket"/>
+
+    <fragment
         android:id="@+id/navigation_favorit"
         android:name="com.resume.project.navigation.NavigationFavorite"
         android:label="fragment_favorit"

@@ -2,6 +2,7 @@
     <string name="app_name">my_project_kotlin</string>
     <string name="t_home">Home</string>
     <string name="t_profile">Profile</string>
+    <string name="t_basket">Basket</string>
     <string name="t_catalog">Catalog</string>
     <string name="t_favorite">Favorite</string>
 </resources>

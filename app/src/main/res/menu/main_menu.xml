@@ -2,22 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_profil"
-        android:title="@string/t_profile"
-        android:icon="@drawable/outline_4g"/>
+        android:id="@+id/navigation_home"
+        android:title="@string/t_home"
+        android:icon="@drawable/m_home"/>
+
 
     <item
         android:id="@+id/navigation_catalog"
         android:title="@string/t_catalog"
-        android:icon="@drawable/outline_4g"/>
-
-    <item
-        android:id="@+id/navigation_home"
-        android:title="@string/t_home"
-        android:icon="@drawable/outline_4g"/>
-
+        android:icon="@drawable/m_menu"/>
     <item
         android:id="@+id/navigation_favorit"
         android:title="@string/t_favorite"
-        android:icon="@drawable/outline_4g"/>
+        android:icon="@drawable/m_favorite"/>
+
+    <item
+        android:id="@+id/navigation_basket"
+        android:title="@string/t_basket"
+        android:icon="@drawable/m_catalog"/>
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:title="@string/t_profile"
+        android:icon="@drawable/m_help"/>
+
 </menu>
